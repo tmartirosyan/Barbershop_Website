@@ -1,0 +1,25 @@
+
+/*  NAVIGATION BAR STYLE  */
+
+.default_navigation {
+	background-color: #202020;
+}
+.default_navigation a {
+	color: white;
+	text-decoration: none;
+}
+.navigation_list {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+}
+.navigation_list li {
+	padding: 20px 10px 20px 10px;
+}
+.navigation_list li:hover {
+	transition: .3s;
+	color: #F0BD3F;
+}
+.logo {
+	background-color: green;
+}
